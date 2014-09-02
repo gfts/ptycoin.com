@@ -76,12 +76,14 @@
       <h2>Products</h2>
       <hr/>
     </div>
+    <!--
     <div class="product">
       <div id="icon-btcpos" class="product-icon"><img class="icon" src="img/icon-shopping-cart.svg" /></div>
       <h3>btcPOS</h3>
       <p>Our merchant processing solution. Your business in Panama can now accept Bitcoin with no risk! We accept Bitcoin from your customers on your behalf and convert them to Balboas, which we will then deposit into your bank account. There are zero fees, and zero risk. If you receive a payment for B/.500.00, you'll receive B/.500.00.</p>
       <p><a class="btn-btcpos" href="/btcpos">Details</a></p>
     </div>
+    -->
     <div class="product">
       <div id="icon-btc2pab" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>Balboas for Bitcoins</h3>

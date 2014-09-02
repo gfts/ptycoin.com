@@ -75,12 +75,14 @@
       <h2>Productos</h2>
       <hr/>
     </div>
+    <!--
     <div class="product">
       <div id="icon-btcpos" class="product-icon"><img class="icon" src="img/icon-shopping-cart.svg" /></div>
       <h3>btcPOS</h3>
       <p>Nuestra solución para comercios. Ahora su negocio en Panamá puede aceptar Bitcoin ¡Sin Riesgo! Nosotros tramitamos el pago de su clientes en Bitcoin, y lo convertimos el Balboas, el mismo se deposita en su cuenta de banco. Sin costo, sin riesgo. Si usted le pagan por B/. 500.00, usted recibe B/. 500.00.</p>
       <p><a class="btn-btcpos" href="/btcpos">Detalles</a></p>
     </div>
+    -->
     <div class="product">
       <div id="icon-btc2pab" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>Balboas por Bitcoins</h3>
