@@ -1,0 +1,302 @@
+
+<html>
+<head>
+  <style>
+    div#ptycoin_orderbook {
+      margin: auto;
+      width: 80%;
+      font-family: Verdana;
+    }
+    div#ptycoin_orderbook h1 {
+      text-align: center;
+      margin: 0px;
+      font-size: 12pt;
+    }
+    div#ptycoin_orderbook table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 10pt;
+    }
+    div#ptycoin_orderbook th {
+      background-color: lightgray;
+    }
+    div#ptycoin_orderbook tr.odd {
+      background-color: white;
+    }
+    div#ptycoin_orderbook tr.even {
+      background-color: lightgray;
+    }
+    div#ptycoin_orderbook_bids {
+      float: left;
+      width: 48%;
+      margin: 5px;
+    }
+    div#ptycoin_orderbook_asks {
+      float: left;
+      width: 48%;
+      margin: 5px;
+    }
+    div#ptycoin_orderbook_bids th, div#ptycoin_orderbook_bids td {
+      width: 33%;
+      border: 1px solid black;
+      text-align: right;
+      padding: 2pt;
+    }
+    div#ptycoin_orderbook_asks th, div#ptycoin_orderbook_asks td {
+      width: 33%;
+      border: 1px solid black;
+      text-align: left;
+      padding: 2pt;
+    }
+  </style>
+<script>
+var rippleAddress = 'rBadiLisPCyqeyRA1ufVLv5qgVRenP2Zyc';
+var bids = {}, asks = {};
+  
+// Sets up Ripple Websocket
+var ripple;
+var attempts = 1, timer = 0;
+connectRipple();
+
+function connectRipple () {
+  ripple = new WebSocket('wss://s1.ripple.com');
+
+  ripple.onopen = function () {
+    console.log('Connected to wss://s1.ripple.com');
+    attempts = 1;
+    requestOrderBook();
+  };
+  
+  ripple.onmessage = function (msg) {
+    parseRipple(msg);
+  };
+
+  ripple.onclose = function () {
+    console.log('Disconnected from wss://s1.ripple.com');
+    var time = generateInterval(attempts);
+    setTimeout(function () { attempts++; connectRipple(); }, time);
+  };
+
+  var rippleUpdate = setInterval(requestOrderBook, 10 * 1000);
+  var updateUpdate = setInterval(updateTimer, 1000);
+}
+
+function generateInterval (k) {
+  var maxInterval = (Math.pow(2, k) - 1) * 1000;
+  if (maxInterval > 30*1000) { maxInterval = 30*1000; }
+  return Math.random() * maxInterval;
+}
+
+function updateTimer() {
+  timer++;
+  document.getElementById('ptycoin_orderbook_updated').innerHTML = timer;
+}
+
+function parseRipple(msg) {
+  var data = JSON.parse(msg.data);
+  
+  // Ask
+  if (data.id == 'btcusd') {
+    var myasks = {};
+    for (var i=0; i < data.result.offers.length; i++) {
+      var price = data.result.offers[i].quality;
+      console.log('Ask', parseFloat(data.result.offers[i].TakerGets.value), price);
+      if (myasks[price]) {
+        myasks[price] += parseFloat(data.result.offers[i].TakerGets.value);
+      } else {
+        myasks[price] = parseFloat(data.result.offers[i].TakerGets.value);
+      }
+    }
+    asks = myasks;
+  }
+  
+  // Bid
+  if (data.id == 'usdbtc') {
+    var mybids = {};
+    for (var i=0; i < data.result.offers.length; i++) {
+      var price = parseFloat(data.result.offers[i].TakerGets.value) / parseFloat(data.result.offers[i].TakerPays.value);
+      console.log('Bid', parseFloat(data.result.offers[i].TakerPays.value), price);
+      if (mybids[price.toFixed(2)]) {
+        mybids[price.toFixed(2)] += parseFloat(data.result.offers[i].TakerPays.value);
+      } else {
+        mybids[price.toFixed(2)] = parseFloat(data.result.offers[i].TakerPays.value);
+      }
+    }
+    bids = mybids;
+  }
+  
+  updateHTML();
+  timer = 0;
+}
+  
+function requestOrderBook () {
+  var cmd = {
+              id: 'btcusd',
+              limit: 25,
+              command: 'book_offers',
+              taker_gets: {
+                currency: 'BTC',
+                issuer: rippleAddress
+              },
+              taker_pays: {
+                currency: 'USD',
+                issuer: rippleAddress
+              }
+            };
+  ripple.send(JSON.stringify(cmd));
+  var cmd = {
+              id: 'usdbtc',
+              limit: 25,
+              command: 'book_offers',
+              taker_gets: {
+                currency: 'USD',
+                issuer: rippleAddress
+              },
+              taker_pays: {
+                currency: 'BTC',
+                issuer: rippleAddress
+              }
+            };
+  ripple.send(JSON.stringify(cmd));
+}
+  
+function updateHTML () {
+  // Bids
+  var table= document.getElementById("ptycoin_orderbook_bids_table");
+  var row, price, size, sum;
+
+  // Sort
+  var bidprices = Object.keys(bids);
+  bidprices.sort(compareNumbers).reverse();
+
+  // Reset the table
+  var len = table.rows.length;
+  for (var i = 1; i < len; i++) {
+    table.deleteRow(1);
+  }
+  for (var i = 0; i < bidprices.length; i++) {
+    var row = table.insertRow(-1);
+    if (i % 2 != 0) {
+      row.className = 'even';
+    } else {
+      row.className = 'odd';
+    }
+  }
+  
+  // Print
+  var bidprice = 0, bidsum = 0;
+  for (var i = 0; i < bidprices.length; i++) {
+    bidprice = bidprices[i];
+    bidsize  = bids[bidprice];
+    bidsum  += bids[bidprice];
+  
+    var row, price, size, sum;
+    row   = table.rows[i+1];
+    sum   = row.insertCell(0);
+    size  = row.insertCell(1);
+    price = row.insertCell(2);
+    price.innerHTML = parseFloat(bidprice).toFixed(2);
+    size.innerHTML  = parseFloat(bidsize).toFixed(8);
+    sum.innerHTML   = parseFloat(bidsum).toFixed(8);
+  }
+  if (bidprices.length == 0) {
+    var row  = table.insertRow(-1);
+    row.className = 'odd';
+      
+    var cell = row.insertCell(0);
+    cell.colSpan = 3;
+    cell.style.textAlign = 'center';
+    cell.innerHTML = 'There are currently no bids for this pair.';
+  }
+    
+  // Asks
+  var table= document.getElementById("ptycoin_orderbook_asks_table");
+  var row, price, size, sum;
+  
+  // Sort
+  var askprices = Object.keys(asks);
+  askprices.sort(compareNumbers);
+
+  // Reset the table
+  var len = table.rows.length;
+  for (var i = 1; i < len; i++) {
+    table.deleteRow(1);
+  }
+  for (var i = 0; i < askprices.length; i++) {
+    var row = table.insertRow(-1);
+    if (i % 2 != 0) {
+      row.className = 'even';
+    } else {
+      row.className = 'odd';
+    }
+  }
+
+  // Print
+  var askprice = 0, asksum = 0;
+  for (var i = 0; i < askprices.length; i++) {
+    askprice = askprices[i];
+    asksize  = asks[askprice];
+    asksum  += asks[askprice];
+  
+    var row, price, size, sum;
+    row   = table.rows[i+1];
+    price = row.insertCell(0);
+    size  = row.insertCell(1);
+    sum   = row.insertCell(2);
+    price.innerHTML = parseFloat(askprice).toFixed(2);
+    size.innerHTML  = parseFloat(asksize).toFixed(8);
+    sum.innerHTML   = parseFloat(asksum).toFixed(8);
+  }
+  
+  if (askprices.length == 0) {
+    var row  = table.insertRow(-1);
+    row.className = 'odd';
+    
+    var cell = row.insertCell(0);
+    cell.colSpan = 3;
+    cell.style.textAlign = 'center';
+    cell.innerHTML = 'There are currently no asks for this pair.';
+  }
+}
+  
+function compareNumbers(a, b) {
+  return a - b;
+}
+</script>
+</head>
+<body>
+<h1>PTYcoin Exchange</h1>
+<p>The PTYcoin Exchange is currently under development, however the below order 
+   book is accurate and reflects all currently open offers to buy or sell Bitcoin 
+   made by PTYcoin users. PTYcoin does not control the prices shown in this order 
+   book. Please <a href="mailto:info@ptycoin.com">contact us</a> for details on 
+   setting up a trading account, or for placing a buy or sell order through a broker.</p>
+
+<div id="ptycoin_orderbook">
+  <div id="ptycoin_orderbook_bids">
+    <h1>Bids</h1>
+    <table id="ptycoin_orderbook_bids_table">
+      <tr>
+        <th>Depth (BTC)</th>
+        <th>Amount (BTC)</th>
+        <th>Bid Price (USD)</th>
+      </tr>
+      <tr><td colspan="3" style="text-align: center" class="odd">Loading...</td></tr>
+    </table>
+  </div>
+  <div id="ptycoin_orderbook_asks">
+    <h1>Asks</h1>
+    <table id="ptycoin_orderbook_asks_table">
+      <tr>
+        <th>Ask Price (USD)</th>
+        <th>Amount (BTC)</th>
+        <th>Depth (BTC)</th>
+      </tr>
+      <tr><td colspan="3" style="text-align: center" class="odd">Loading...</td></tr>
+    </table>
+  </div>
+  <div><p>Last Updated: <span id="ptycoin_orderbook_updated">0</span> seconds ago.</p></div>
+</div>
+</body>
+</html>
+
