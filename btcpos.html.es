@@ -7,8 +7,8 @@
 <meta name="author" content="Panama Bitcoins">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/style.css"  type="text/css" media="screen">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css"  type="text/css" media="screen">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <!-- Google Analytics Tracking Code -->
@@ -37,38 +37,38 @@
 <section id="about">
   <div class="inner center">
     <div class="product">
-      <div id="icon-btcpos" class="product-icon"><img class="icon" src="/img/icon-shopping-cart.svg" /></div>
+      <div id="icon-btcpos" class="product-icon"><img class="icon" src="img/icon-shopping-cart.svg" /></div>
       <h3>¿Que es btcPOS?</h3>
       <p>btcPOS es la solución de punto de venta para los comercios de Panamá. La hemos desarrollado para que usted y su negocio puedan aceptar pagos en Bitcoins hoy, sin ningún riesgo.</p>
     </div>
     <div class="product">
-      <div id="icon-register" class="product-icon"><img class="icon" src="/img/icon-bitcoin.svg" /></div>
+      <div id="icon-register" class="product-icon"><img class="icon" src="img/icon-bitcoin.svg" /></div>
       <h3>¿Porque debo aceptar pago en bitcoin?</h3>
       <p>Una mejor pregunta es ¿porqué no aceptar pagos en bitcoin? Bitcoin está siendo utilizando por miles comercio y personas alrededor del mundo. Ofrece el mismo nivel de protección contra fraude que utilizar efectivo sin el riesgo de hurto. Igual de conveniente que las tarjetas de credito sin las altas comisiones ni peligro de cobro revertido. Bitcoin es el dinero del futuro, y cada vez más personas van a querer poder pagar con el. Sea uno de los primeros comercios en aceptar Bitcoin como medio de pago y disfrute de la publicidad gratuita.</p>
     </div>
     <div class="product">
     <div class="product">
-      <div id="icon-register" class="product-icon"><img class="icon" src="/img/cash-register.svg" /></div>
+      <div id="icon-register" class="product-icon"><img class="icon" src="img/cash-register.svg" /></div>
       <h3>¿Como funciona?</h3>
       <p>Cuando se suscriba a btcPOS, le personalizaremos el app y la misma puede correr desde cualquier computadora, tablet o smartphone siempre y cuando tenga coneccion al internet. Cuando un cliente desea pagar con Bitcoin, usted simplemente lanza el app, ingresa el monto a cobrar y le muestra al cliente un “código de barra” bitcoin. El cliente escanea el código, envia las Bitcoin y usted le aparece una confirmación de pago.</p>
     </div>
     <div class="product">
-      <div id="icon-phonecard" class="product-icon"><img class="icon" src="/img/icon-money-bag.svg" /></div>
+      <div id="icon-phonecard" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>¿Cómo recibo el pago?</h3>
       <p>Panamá Bitcoins detrás de la escena, recibe las Bitcoin, las convierte en Balboas, los cuales se depositan en su cuenta comercial. btcPOS no requiere que usted ni su personal tenga conocimiento tecnico sobre Bitcoin y su funcionamiento.</p>
     </div>
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/risk.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/risk.svg" /></div>
       <h3>¿Existe algún riesgo?</h3>
       <p>El cambio de Bitcoin hacia Balboas fluctúa todo el tiempo. Si usted prefiere guardar Bitcoin, hay riesgo de que pierdan algo de valor. Con btcPOS, en el momento que se reciban las Bitcoin, se convierten a Balboas. Nosotros asumimos el riesgo para que usted no tenga que hacerlo.</p>
     </div>
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/coin-money-7.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/coin-money-7.svg" /></div>
       <h3>¿Cuanto Cuesta?</h3>
       <p>La mission de Panamá Bitcoins es que en Panamá todos utilicen Bitcoin. La mejor manera de hacerlo es que los comercios comiencen a aceptar Bitcoin como forma de pago.También creemos que al igual que nosotros toda persona que tenga acceso a gastar Bitcoin, va a querer buscar un lugar para hacerlo y dispuesto a pagar el cargo por el derecho a gastarla. Como comercio si usted vende B/. 500 en bienes y servicios,recibirá B/. 500 por ende este servicio no le cuesta nada.. ¡GRATIS!</p>
     </div>
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/thumbs-up.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/thumbs-up.svg" /></div>
       <h3>¡Suena excelente! ¿Donde me apunto?</h3>
       <p>Solo tiene que enviar un correo a <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a> y uno de nuestros agentes se pondrá en contacto con usted.</p>
     </div>

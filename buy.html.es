@@ -11,8 +11,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://ptycoin.com/buy" />
 <meta property="og:image" content="http://www.ptycoin.com/img/PTYcoin+Logo+5.png" />
-<link rel="stylesheet" href="/style.css"  type="text/css" media="screen">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css"  type="text/css" media="screen">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <!-- Google Analytics Tracking Code -->

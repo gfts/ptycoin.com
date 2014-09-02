@@ -7,8 +7,8 @@
 <meta name="author" content="Panama Bitcoins">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/style.css"  type="text/css" media="screen">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css"  type="text/css" media="screen">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <!-- Google Analytics Tracking Code -->
@@ -37,38 +37,38 @@
 <section id="about">
   <div class="inner center">
     <div class="product">
-      <div id="icon-btcpos" class="product-icon"><img class="icon" src="/img/icon-shopping-cart.svg" /></div>
+      <div id="icon-btcpos" class="product-icon"><img class="icon" src="img/icon-shopping-cart.svg" /></div>
       <h3>What is btcPOS?</h3>
       <p>btcPOS is our merchant processing solution. We developed it so that businesses in Panama can start accepting Bitcoin today, with no risk!</p>
     </div>
     <div class="product">
-      <div id="icon-register" class="product-icon"><img class="icon" src="/img/icon-bitcoin.svg" /></div>
+      <div id="icon-register" class="product-icon"><img class="icon" src="img/icon-bitcoin.svg" /></div>
       <h3>Why should I accept Bitcoin?</h3>
       <p>A better question is, why shouldn't you? Bitcoin is being accepted by hundreds of thousands of merchants around the world. It offers the same fraud protection as cash, without the risks of theft. It offers the same convenience as credit cards, without the high fees or chargebacks. Bitcoin is the future of money, and more and more of your customers are going to want to pay with it. Combine that with the free publicity you'll get by being one of the first businesses in Panama accepting Bitcoin, and there's really no reason you shouldn't be using it!</p>
     </div>
     <div class="product">
     <div class="product">
-      <div id="icon-register" class="product-icon"><img class="icon" src="/img/cash-register.svg" /></div>
+      <div id="icon-register" class="product-icon"><img class="icon" src="img/cash-register.svg" /></div>
       <h3>How does it work?</h3>
       <p>Once you've signed up for btcPOS, you will be provided a customized application which can be run from any computer, tablet, or smartphone with an Internet connection. When a customer wants to pay with Bitcoin, you simply launch the application, enter a price, and present a Bitcoin "bar" code to the customer. The customer scans the code, sends the Bitcoin, and you get a payment confirmation.</p>
     </div>
     <div class="product">
-      <div id="icon-phonecard" class="product-icon"><img class="icon" src="/img/icon-money-bag.svg" /></div>
+      <div id="icon-phonecard" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>How do I get paid?</h3>
       <p>Behind the scenes, Panama Bitcoins will receive the Bitcoin, and convert it to Balboas, which we will then deposit into your businesses bank account. btcPOS doesn't require any technical knowledge of Bitcoin from you or your employees.</p>
     </div>
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/risk.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/risk.svg" /></div>
       <h3>Is there any risk?</h3>
       <p>The Bitcoin to Balboa exchange rate changes all the time. If you hold Bitcoin there is a risk that you could lose some of its value. With btcPOS, we convert the Bitcoin we receive automatically to Balboas, when we receive them. We accept all the risk of holding Bitcoin so you don't have to.</p>
     </div>
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/coin-money-7.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/coin-money-7.svg" /></div>
       <h3>What does it cost?</h3>
       <p>Panama Bitcoins' mission is to get everyone in Panama using Bitcoin. And we think that one of the fastest ways to make that happen is to get merchants accepting Bitcoin. We also believe that those of us who want to use and spend Bitcoin are looking for places to do it, and are willing to pay the fees. So btcPOS passes our fees to the consumer. As the merchant, if you sell B/.500.00 worth of merchandise, you will receive B/.500.00. btcPOS will cost you nothing!</p>
     </div>
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/thumbs-up.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/thumbs-up.svg" /></div>
       <h3>Sound's great! How do I get started?</h3>
       <p>Just send an email to <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a> letting us know you're interested. One of our agents will contact you as soon as possible to get you signed up!</p>
     </div>

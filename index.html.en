@@ -7,8 +7,8 @@
 <meta name="author" content="Panama Bitcoins">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/style.css"  type="text/css" media="screen">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css"  type="text/css" media="screen">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <!-- Google Analytics Tracking Code -->
@@ -40,7 +40,7 @@
       <h2>Hello!</h2>
       <hr/>
     </div>
-    <div class="circle"><img id="authorimg" src="/img/PTYcoin+Logo+5.png" /></div>
+    <div class="circle"><img id="authorimg" src="img/PTYcoin+Logo+5.png" /></div>
     <p>We are PTYcoin. Founded in 2013, our mission is to bring Bitcoin to the Republic of Panama. In addition to evangelizing Bitcoin, and its benefits, we offer a variety of products and services that help businesses and individuals to start accepting and using Bitcoin.</p>
   </div>
 </section>
@@ -77,33 +77,33 @@
       <hr/>
     </div>
     <div class="product">
-      <div id="icon-btcpos" class="product-icon"><img class="icon" src="/img/icon-shopping-cart.svg" /></div>
+      <div id="icon-btcpos" class="product-icon"><img class="icon" src="img/icon-shopping-cart.svg" /></div>
       <h3>btcPOS</h3>
       <p>Our merchant processing solution. Your business in Panama can now accept Bitcoin with no risk! We accept Bitcoin from your customers on your behalf and convert them to Balboas, which we will then deposit into your bank account. There are zero fees, and zero risk. If you receive a payment for B/.500.00, you'll receive B/.500.00.</p>
       <p><a class="btn-btcpos" href="/btcpos">Details</a></p>
     </div>
     <div class="product">
-      <div id="icon-btc2pab" class="product-icon"><img class="icon" src="/img/icon-money-bag.svg" /></div>
+      <div id="icon-btc2pab" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>Balboas for Bitcoins</h3>
       <p>We will convert your Bitcoins into Balboas and deposit them into your bank account, or send you cash through one of our agents.</p>
       <p><a class="btn-btc2pab" href="/sell">www.ptycoin.com/sell</a></p>
     </div>
     <!--
     <div class="product">
-      <div id="icon-billpay" class="product-icon"><img class="icon" src="/img/icon-billpay.svg" /></div>
+      <div id="icon-billpay" class="product-icon"><img class="icon" src="img/icon-billpay.svg" /></div>
       <h3>Bitcoin Billpay</h3>
       <p>Use your Bitcoins to pay your bills. We act as a proxy service, through which you can pay any of your bills using Bitcoin. We convert the Bitcoin to Balboas and pay the bills on your behalf.</p>
       <p><a class="btn-billpay" href="http://billpay.panamabitcoins.com">billpay.panamabitcoins.com</a></p>
     </div>
     <div class="product">
-      <div id="icon-phonecard" class="product-icon"><img class="icon" src="/img/icon-phone.svg" /></div>
+      <div id="icon-phonecard" class="product-icon"><img class="icon" src="img/icon-phone.svg" /></div>
       <h3>Mobile Recharge</h3>
       <p>Use your Bitcoins to recharge your pre-paid mobile phone. We offer recharge codes for Movistar, +Movil, Digicel, and Claro.</p>
       <p><a class="btn-phonecard" href="http://store.panamabitcoins.com">store.panamabitcoins.com</a></p>
     </div>
     -->
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/icon-bitcoin.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/icon-bitcoin.svg" /></div>
       <h3>Buy Bitcoin</h3>
       <p>How do we convert Bitcoins to Balboas for all of our other products and services? We sell them to you! This keeps the Bitcoin in Panama and helps grow the local Bitcoin economy.</p>
       <p><a class="btn-pab2btc" href="/buy">www.ptycoin.com/buy</a></p>
@@ -119,20 +119,20 @@
       <hr/>
     </div>
     <div class="product">
-      <div id="icon-presentations" class="icon"><img class="icon" src="/img/icon-presentation.svg" /></div>
+      <div id="icon-presentations" class="icon"><img class="icon" src="img/icon-presentation.svg" /></div>
       <h3>Bitcoin Presentations</h3>
       <p>Would you and your organization like to learn more about Bitcoin? Our founder is available for presentations and seminars.</p>
       <p><a class="btn-presentations" href=""></a></p>
     </div>
     <div class="product">
-      <div id="icon-consulting" class="icon"><img class="icon" src="/img/icon-consulting.svg" /></div>
+      <div id="icon-consulting" class="icon"><img class="icon" src="img/icon-consulting.svg" /></div>
       <h3>Bitcoin Consulting</h3>
       <p>Our btcPOS product makes it easy to start accepting Bitcoin, but if you want a more custom solution, or want to build a new product or service that uses Bitcoin, we can help with small or large projects.</p>
       <p><a class="btn-consulting" href=""></a></p>
     </div>
     <!--
     <div class="product">
-      <div id="icon-legal" class="icon"><img class="icon" src="/img/icon-legal.svg" /></div>
+      <div id="icon-legal" class="icon"><img class="icon" src="img/icon-legal.svg" /></div>
       <h3>Legal Services</h3>
       <p>Our team includes a licensed attorney, experienced in Panamanian law and how it relates to Bitcoin. We can offer our legal expertise to your existing business, or help you form a new business. And yes, we do accept Bitcoin!</p>
       <p><a class="btn-legal" href=""></a></p>

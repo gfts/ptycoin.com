@@ -7,8 +7,8 @@
 <meta name="author" content="Panama Bitcoins">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/style.css"  type="text/css" media="screen">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css"  type="text/css" media="screen">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <!-- Google Analytics Tracking Code -->
@@ -39,7 +39,7 @@
       <h2>&iexcl;Hola!</h2>
       <hr/>
     </div>
-    <div class="circle"><img id="authorimg" src="/img/PTYcoin+Logo+5.png" /></div>
+    <div class="circle"><img id="authorimg" src="img/PTYcoin+Logo+5.png" /></div>
     <p>Somos PTYcoin, fundada en el 2013, y nuestra misión es divulgar el uso de Bitcoin en la Republica de Panama. Además evangelizar sobre Bitcoin y sus beneficios. Ofrecemos una variedad de productos para brindar soluciones que le faciliten el uso de Bitcoin para el individuo y el comercio.</p>
   </div>
 </section>
@@ -76,33 +76,33 @@
       <hr/>
     </div>
     <div class="product">
-      <div id="icon-btcpos" class="product-icon"><img class="icon" src="/img/icon-shopping-cart.svg" /></div>
+      <div id="icon-btcpos" class="product-icon"><img class="icon" src="img/icon-shopping-cart.svg" /></div>
       <h3>btcPOS</h3>
       <p>Nuestra solución para comercios. Ahora su negocio en Panamá puede aceptar Bitcoin ¡Sin Riesgo! Nosotros tramitamos el pago de su clientes en Bitcoin, y lo convertimos el Balboas, el mismo se deposita en su cuenta de banco. Sin costo, sin riesgo. Si usted le pagan por B/. 500.00, usted recibe B/. 500.00.</p>
       <p><a class="btn-btcpos" href="/btcpos">Detalles</a></p>
     </div>
     <div class="product">
-      <div id="icon-btc2pab" class="product-icon"><img class="icon" src="/img/icon-money-bag.svg" /></div>
+      <div id="icon-btc2pab" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>Balboas por Bitcoins</h3>
       <p>Convertiremos sus Bitcoin en Balboas y se los depositaremos en su cuenta de banco, o le daremos el efectivo a través de uno de nuestros agentes.</p>
       <p><a class="btn-btc2pab" href="/sell">www.ptycoin.com/sell</a></p>
     </div>
     <!--
     <div class="product">
-      <div id="icon-billpay" class="product-icon"><img class="icon" src="/img/icon-billpay.svg" /></div>
+      <div id="icon-billpay" class="product-icon"><img class="icon" src="img/icon-billpay.svg" /></div>
       <h3>Bitcoin Billpay</h3>
       <p>Utilice sus Bitcoin para pagar cuentas. Nosotros le convertimos sus Bitcoin a balboa y como servicio agregado le hacemos el favor de pagar la cuenta por usted.</p>
       <p><a class="btn-billpay" href="http://billpay.panamabitcoins.com">billpay.panamabitcoins.com</a></p>
     </div>
     <div class="product">
-      <div id="icon-phonecard" class="product-icon"><img class="icon" src="/img/icon-phone.svg" /></div>
+      <div id="icon-phonecard" class="product-icon"><img class="icon" src="img/icon-phone.svg" /></div>
       <h3>Recargas Celulares</h3>
       <p>Use sus Bitcoin para recargar su telefono celular pre-pago. Le damos codigos de recarga para Movistar, +Movil, Digicel y Claro.</p>
       <p><a class="btn-phonecard" href="http://store.panamabitcoins.com">store.panamabitcoins.com</a></p>
     </div>
     -->
     <div class="product">
-      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/icon-bitcoin.svg" /></div>
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/icon-bitcoin.svg" /></div>
       <h3>Compre Bitcoin</h3>
       <p>¿Como convertimos Bitcoin a Balboas para todos nuestros productos, y servicios? ¡Se las vendemos a usted! Así se mantiene la circulación de Bitcoin dentro de Panamá y ayuda a crecer la economía local de Bitcoin.</p>
       <p><a class="btn-pab2btc" href="/buy">www.ptycoin.com/buy</a></p>
@@ -118,20 +118,20 @@
       <hr/>
     </div>
     <div class="product">
-      <div id="icon-presentations" class="icon"><img class="icon" src="/img/icon-presentation.svg" /></div>
+      <div id="icon-presentations" class="icon"><img class="icon" src="img/icon-presentation.svg" /></div>
       <h3>Presentaciones sobre Bitcoin</h3>
       <p>¿Desea que usted y su organización aprender más sobre Bitcoin? Nuestro fundador está disponible para dictar charlas y seminarios.</p>
       <p><a class="btn-presentations" href=""></a></p>
     </div>
     <div class="product">
-      <div id="icon-consulting" class="icon"><img class="icon" src="/img/icon-consulting.svg" /></div>
+      <div id="icon-consulting" class="icon"><img class="icon" src="img/icon-consulting.svg" /></div>
       <h3>Asesoria Bitcoin</h3>
       <p>Nuestro solucion btcPOS hace facil comenzar a aceptar Bitcoin. Si desea soluciones personalizadas o construir un nuevo servicio que utilice Bitcoin, nosotros podemos ayudar con proyectos grandes y pequeños.</p>
       <p><a class="btn-consulting" href=""></a></p>
     </div>
     <!--
     <div class="product">
-      <div id="icon-legal" class="icon"><img class="icon" src="/img/icon-legal.svg" /></div>
+      <div id="icon-legal" class="icon"><img class="icon" src="img/icon-legal.svg" /></div>
       <h3>Servicios Legales</h3>
       <p>Nuestro equipo incluye un abogado licenciado, con experiencia en ley Panameña y como se relaciona con Bitcoin. Podemos brindar nuestro especialista en leyes para su negocio existente, o ayudarlo a establecer un nuevo negocio. Y por supuesto aceptamos Bitcoin!</p>
       <p><a class="btn-legal" href=""></a></p>
