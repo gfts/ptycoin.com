@@ -1,0 +1,229 @@
+@import url('//fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('//fonts.googleapis.com/css?family=Ubuntu');
+
+/* ==========================================================================
+ * http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
+   ========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+html {-webkit-tap-highlight-color:rgba(0,0,0,0);}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0; width: 100%; table-layout: fixed; }
+th { padding-left: 10px; padding-right: 10px; background-color: #ddd; border: 1px solid black; }
+td { padding: 10px; border: 1px solid black; color: #262626; }
+.fixed { width: 120pt; text-align: center; }
+.fluid { text-align: justify; }
+.visible { }
+.hidden{ overflow:hidden; }
+
+/* ========================================================================== 
+ * Basic styles
+   ========================================================================== */
+body {font-family:'Ubuntu Condensed',Arial,sans-serif;font-size:95%;font-weight:300;}
+* {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+*::-moz-selection {background:#E06A5D;color:#FFF;text-shadow:none;}
+*::selection {background:#E06A5D;color:#FFF;text-shadow:none;}
+hr {height:4px;width:70px;background-color:#C0392B;margin:2.75em auto 3.25em;border:0 none;}
+hr.title {background-color:#FFF;}
+hr.work-dash {height:1px;width:140px;background-color:#C0C0C0;margin:2.55em auto 3.75em;border:0 none;}
+img {vertical-align:middle;}
+noscript {position:fixed;left:0;top:0;width:100%;height:60px;font-size:80%;text-align:center;line-height:60px;color:#808080;background-color:#262626;opacity:0.9;z-index:9999;}
+.clearfix:before, .clearfix:after {content:" ";display:table;}
+.clearfix:after {clear:both;}
+
+/* ========================================================================== 
+ * Div-container
+   ========================================================================== */
+header {position:relative;width:100%;overflow:hidden;}
+nav {position:absolute;top:0;width:100%;background-color:#190C0C;-webkit-transition: all .25s ease-out 0s;transition: all .25s ease-out 0s;z-index:999;}
+nav.show {top:0;}
+nav.hide {top:-320px;}
+section {position:relative;padding:3.25em 1.25em 4.375em;background-color:#FFF;}
+section hr {background-color:#E06A5D; margin:1em auto 1em;}
+footer {position:relative;padding:2.75em 0 2.25em;text-align:center;border-top:1px solid #E6E6E6;}
+footer .left, footer .right {width:100%;}
+footer .right {margin-top:0.75em;}
+#mainheader {height:32.5em;background:url('img/wood-background.jpg') no-repeat bottom;background-size:cover;}
+#productheader {height:23.75em;background-color:#E06A5D;background:linear-gradient(#c7574a, #e28075);text-align:center;}
+#pageheader {height:22em;background:url('img/background.jpg') no-repeat center 92%;background-size:cover;}
+#title {position:relative;padding-top:5em;text-align:center;}
+#nav-menu {position:relative;display:block;}
+#page {position:relative;min-height:320px;}
+#hello, #products, #contact {background-color:#F2F2F2;}
+#loading {position:fixed;left:0;top:0;width:100%;height:100%;background-color:#E06A5D;z-index:9999;}
+.inner {position:relative;width:100%;max-width:1080px;margin:0 auto;}
+.item {position:relative;display:block;width:100%;margin-bottom:2.75em;}
+.product {position:relative;width:100%;max-width:768px;margin:0 auto 2.75em;}
+.product:last-of-type {margin-bottom:0;}
+.box {position:relative;margin-top:0em;padding-top:0em;background-color:#FFF; text-align: center;}
+.circle {position:relative;width:100px;height:100px;top:0px;margin:0 auto;padding-top:15px;border-radius:72px;border:2px solid #E06A5D;background-color:#FFF;overflow-x:hidden;}
+#hello .circle {width:208px;height:208px;top:0;margin-bottom:1.25em;padding:4px;border-radius:208px;}
+.iemsg {background-color:#190C0C;color:#FFF;}
+.popup-minimal {-webkit-animation:popup .4s ease-out 0s 1 forwards;animation:popup .4s ease-out 0s 1 forwards;}
+.popup-individual {-webkit-animation:popup .4s ease-out 0.4s 1 forwards;animation:popup .4s ease-out 0.4s 1 forwards;}
+.popup-responsive {-webkit-animation:popup .4s ease-out .8s 1 forwards;animation:popup .4s ease-out .8s 1 forwards;}
+.icon {display:block;width:64px;height:64px;margin:0 auto;}
+.skill {position:relative;display:block;width:100%;margin:0 auto 0.95em;background-color:#E6E6E6;color:#fff;text-align:center;border-radius:2px;}
+.skill:last-of-type {margin-bottom:0;}
+.progress {height:1.75em;width:0;background-color:#E06A5D;line-height:1.75em;border-radius:2px;}
+.progress-text-animate {-webkit-animation:skilltext .6s ease-out .6s 1 forwards;animation:skilltext .6s ease-out .6s 1 forwards;}
+.progress-html-animate {-webkit-animation:skillhtml .6s ease-out .8s 1 forwards;animation:skillhtml .6s ease-out .8s 1 forwards;}
+.progress-css-animate {-webkit-animation:skillcss .6s ease-out 1s 1 forwards;animation:skillcss .6s ease-out 1s 1 forwards;}
+.progress-responsive-animate {-webkit-animation:skillresponsive .6s ease-out 1.2s 1 forwards;animation:skillresponsive .6s ease-out 1.2s 1 forwards;}
+.progress-jquery-animate {-webkit-animation:skilljquery .6s ease-out 1.4s 1 forwards;animation:skilljquery .6s ease-out 1.4s 1 forwards;}
+.progress-wordpress-animate {-webkit-animation:skillwordpress .6s ease-out 1.6s 1 forwards;animation:skillwordpress .6s ease-out 1.6s 1 forwards;}
+.progress-php-animate {-webkit-animation:skillphp .6s ease-out 1.8s 1 forwards;animation:skillphp .6s ease-out 1.8s 1 forwards;}
+.productimg, .previewimg {width:100%;height:auto;}
+.productimg {min-width:240px;}
+.loadimg {position:absolute;left:50%;top:50%;width:0;height:1px;margin-left:-160px;margin-top:-1px;background-color:#FFF;-webkit-animation:loader 5s linear 0s infinite;animation:loader 5s linear 0s infinite;}
+#authorimg {display:block;width:196px;height:196px;margin:0 auto;}
+#awwwards {display:none;}
+@keyframes skilltext {0% {width:0%;} 100% {width:97%;}}
+@-webkit-keyframes skilltext {0% {width:0%;} 100% {width:97%;}}
+@keyframes skillhtml {0% {width:0%;} 100% {width:96%;}}
+@-webkit-keyframes skillhtml {0% {width:0%;} 100% {width:96%;}}
+@keyframes skillcss {0% {width:0%;} 100% {width:91%;}}
+@-webkit-keyframes skillcss {0% {width:0%;} 100% {width:91%;}}
+@keyframes skillresponsive {0% {width:0%;} 100% {width:82%;}}
+@-webkit-keyframes skillresponsive {0% {width:0%;} 100% {width:82%;}}
+@keyframes skilljquery {0% {width:0%;} 100% {width:78%;}}
+@-webkit-keyframes skilljquery {0% {width:0%;} 100% {width:78%;}}
+@keyframes skillwordpress {0% {width:0%;} 100% {width:74%;}}
+@-webkit-keyframes skillwordpress {0% {width:0%;} 100% {width:74%;}}
+@keyframes skillphp {0% {width:0%;} 100% {width:61%;}}
+@-webkit-keyframes skillphp {0% {width:0%;} 100% {width:61%;}}
+@keyframes popup {0% {top:180px;}100% {top:0px;}}
+@-webkit-keyframes popup {0% {top:180px;}100% {top:0px;}}
+@keyframes loader {0% {width:0;}100% {width:320px;}}
+@-webkit-keyframes loader {0% {width:0;}100% {width:320px;}}
+.mainvideo { position:relative;padding-bottom:56.25%;padding-top:0px;height:0;overflow:hidden;}
+.mainvideo iframe { position:absolute;top:0;left:0;width:100%;height:100%; }
+
+
+/* ==========================================================================  
+ * Fonts 
+   ========================================================================== */
+h1,h2,h3,h4,h5,h6,p,span,blockquote,ul,ol,li,small,em,pre {color:#262626}
+h1,h2,h3,h4 {word-wrap:break-word;}
+h2 {font-size:175%;text-align:center;text-transform:uppercase;letter-spacing:1px;}
+h3 {font-size:125%;text-align:center;text-transform:uppercase;line-height:1.55em;}
+p,label {width:100%;margin:0 auto;font-size:112.5%;line-height:1.55em;}
+address {margin-top:0.75em;font-size:125%;text-align:center;text-transform:none;line-height:1.6em;color:#E06A5D;}
+#page-title {font-family:'Ubuntu';font-size:320%;text-align:center;color:#FFF;letter-spacing:1px;}
+.subtitle {font-size:125%;text-align:center;line-height:1.7em;color:#FFF;letter-spacing:1px;}
+#product h1 {font-size:175%;text-align:center;text-transform:uppercase;letter-spacing:1px;}
+#product p {padding-bottom:1.25em;}
+#about p {width:100%;font-size:112.5%;}
+#skills p {margin-bottom:1.25em;}
+.skill p {color:#FFF;}
+footer p {width:100%;line-height:1.75em;font-size:90%;font-weight:400;color:#F39990;}
+footer ul {margin-bottom:1.25em;}
+footer li {display:block;margin:0.75em 0;}
+strong, b {font-weight:400;}
+.italic, em, i {font-style:italic;}
+.center {text-align:center;}
+.quote {color:#808080;}
+
+
+/* ==========================================================================  
+ * Links 
+   ========================================================================== */
+a {text-decoration:none;-webkit-transition:all .25s ease-out 0s;transition:all .25s ease-out 0s;color:#E06A5D;}
+a:hover, a:focus {color:#F39990;}
+footer a {color:#F39990;font-weight:400;}
+footer ul a {font-size:90%;text-transform:uppercase;}
+footer a:hover, footer a:focus {color:#C0C0C0;}
+#menu {display:block;position:relative;top:10px;width:100%;text-align:center;z-index:99;}
+#menu:hover, #menu-desktop :focus {opacity:0.5;}
+#nav-menu a {display:block;color:#C2C2C2;line-height:60px;text-align:center;text-transform:uppercase;font-weight:400;border-bottom:1px solid #262626;}
+#nav-menu a:hover {background-color:#262626;}
+.btn {padding:2px 16px;color:#FFF;background-color:#E06A5D;line-height:50px;text-transform:uppercase;font-weight:400;text-align:center;border-radius:6px;-webkit-transition:all .25s ease-in 0s;transition:all .25s ease-in 0s;}
+.btn:hover, .btn:focus {background-color:#F39990;color:#FFF;}
+.btn-contact {display:block;width:100%;max-width:260px;margin:2.25em auto 0;}
+.btn-product {display:block;width:32px;height:32px;margin:0 auto;background:url('img/enter.svg') no-repeat;}
+.btn-product:hover {opacity:0.4;}
+.btn-more {display:none;}
+#awwwards a {display:block;width:70px;height:105px;text-indent:-8000px;background-image:url('img/awwwards_honorable_white_left.png');background-repeat:no-repeat;background-position: 0 0;overflow:hidden;}
+
+
+/* ==========================================================================  
+ * Forms 
+   ========================================================================== */
+form {position:relative;width:100%;margin:0.95em auto 0;}
+label {color:#808080;}
+.form-wrapper {padding-bottom:25px;}
+.form-control {width:100%;margin:3px 0 13px;padding:10px 8px;font-family:'Ubuntu';font-weight:300;font-size:100%;color:#212121;border:2px solid #C0C0C0;border-radius:6px;transition:all .25s linear 0s;}
+.form-control:focus {border-color:#F39990;}
+.form-control::-moz-placeholder {color:#808080;}
+.btn-submit {width:100%;margin-top:10px;padding:12px 8px;background-color:#E06A5D;border:0 none;color:#FFF;cursor:pointer;}
+.btn-submit:hover, .btn-submit:focus {background-color:#F39990;}
+#msgsuccess {display:none;position:absolute;left:0;top:50%;width:100%;font-size:350%;text-align:center;text-transform:uppercase;color:#E06A5D}
+
+
+/* ==========================================================================  
+ * Start Media Queries 
+   ========================================================================== */
+@media only screen and (min-width:30em /* 480px */) {
+body {font-size:100%;}
+#page-title {font-size:380%;}
+}
+
+@media only screen and (min-width:40em /* 640px */) {
+#title {padding-top:6.5em;}
+#work .item {float:left;width:46.296296%;margin:1.8518519%;}
+.btn-more {display:block;position:absolute;left:50%;bottom:0px;width:50px;height:48px;line-height:36px;margin-left:-25px;color:#FFF;background:none;border:2px solid #C0392B;border-radius:50px;-webkit-transform:translateY(60px);transform:translateY(60px);}
+.btn-more:hover, .btn-more:focus {border-color:#FFF;background:none;}
+.btn-more.show {-webkit-transform:translateY(-40px);transform:translateY(-40px);}
+footer li {display:inline-block;margin:0 0.55em;}
+p, label, #nav-menu a {font-weight:300;}
+#menu {position:absolute;right:5%;top:5%;width:42px;height:36px;}
+#awwwards {display:block;position:absolute;top:40px;left:0;z-index:9990;}
+}
+
+@media only screen and (min-width:48em /* 768px */) {
+body {font-size:107.5%;}
+nav {position:fixed;right:0;width:220px;height:100%;}
+nav.show {-webkit-transform:translateX(0px);transform:translateX(0px);top:0;}
+nav.hide {-webkit-transform:translateX(220px);transform:translateX(220px);top:0;}
+.layer {background-color:rgba(231,76,60,0.75);}
+.product {margin-bottom:4.25em;}
+#work .item, #about .item, footer .item {float:left;width:29.62963%;margin:1.8518519%;}
+#work .item, #work img {border-radius:6px;}
+#hello .circle {width:268px;height:268px;border-radius:268px;}
+#authorimg {width:256px;height:256px;}
+h1,h2,h3,h4,h5,h6,p,span,blockquote,ul,ol,li,small,em,pre {color:#454545}
+p, form, .skill {width:660px;}
+address {font-size:175%;}
+#about p {font-size:95%;}
+#about p {font-size:107.5%;}
+.btn {font-size:85%;}
+footer p {font-size:85%}
+#nav-menu a {color:#808080;}
+#menu {position:fixed;}
+}
+
+@media only screen and (min-width:64em /* 1024px */) {
+body {font-size:125%;}
+#productheader {height:40em;}
+#title {padding-top:7em;}
+.btn {font-size:75%;}
+}
+
+
+/* ==========================================================================  
+ * Fallbacks
+   ========================================================================== */
+.no-js #loading {display:none;}
+.no-js nav.hide {transform:translateX(0px);top:0;}
+.no-rgba footer {background-color:#190C0C;}
+.no-rgba #work .item {border:1px solid #C2C2C2;}
+.no-svg .footerimg {display:none;}
+.no-cssanimations .circle {top:0;}
+.no-cssanimations .progress-text {width:97%;}
+.no-cssanimations .progress-html {width:96%;}
+.no-cssanimations .progress-css {width:91%;}
+.no-cssanimations .progress-responsive {width:82%;}
+.no-cssanimations .progress-jquery {width:78%;}
+.no-cssanimations .progress-wordpress {width:74%;}
+.no-cssanimations .progress-php {width:61%;}

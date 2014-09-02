@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Panama Bitcoins</title>
+<meta name="description" content="Panama Bitcoins. We are Panama Bitcoins, S.A.. Founded in 2013, our mission is to bring Bitcoin to the Republic of Panama. In addition to evangelizing Bitcoin, and its benefits, we offer a variety of products and services that help businesses and individuals to start accepting and using Bitcoin.">
+<meta name="keywords" content="Panama Bitcoins, Panama, Bitcoin, Exchange, BTC, Bill Pay, BillPay, Phone Cards, Technology, Consulting">
+<meta name="author" content="Panama Bitcoins">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/style.css"  type="text/css" media="screen">
+<link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+  <!-- Google Analytics Tracking Code -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47372803-2', 'ptycoin.com');
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics Tracking Code -->
+
+
+<header id="mainheader">
+  <div id="title">
+    <h1 id="page-title">Panama Bitcoins</h1>
+    <hr class="title"/>
+    <h2 class="subtitle">In Cryptography We Trust</h2>
+  </div>
+</header>
+
+<div id="page">
+
+<section id="hello">
+  <div class="inner center">
+    <div class="section-title">
+      <h2>Hello!</h2>
+      <hr/>
+    </div>
+    <div class="circle"><img id="authorimg" src="/img/PTYcoin+Logo+5.png" /></div>
+    <p>We are PTYcoin. Founded in 2013, our mission is to bring Bitcoin to the Republic of Panama. In addition to evangelizing Bitcoin, and its benefits, we offer a variety of products and services that help businesses and individuals to start accepting and using Bitcoin.</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="inner center">
+    <div class="section-title">
+      <h2>What is Bitcoin?</h2>
+      <hr/>
+    </div>
+    <p>Bitcoin is an innovative payment network and a new kind of money.</p>
+    <div class="mainvideo"><iframe width="640" height="390" src="//www.youtube.com/embed/Um63OQz3bjo?rel=0&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
+    <div class="limiter clearfix">
+      <div class="item">
+        <div id="icon-instant" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_instant.svg" /></div>
+        <div class="box"><p>Instant peer-to-peer transactions</p></div>
+      </div>
+      <div class="item">
+        <div id="icon-worldwide" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_worldwide.svg" /></div>
+	<div class="box"><p>Worldwide payments</p></div>
+      </div>
+      <div class="item">
+        <div id="icon-lowfee" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_lowfee.svg" /></div>
+        <div class="box"><p>Zero or low processing fees</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="inner center">
+    <div class="section-title">
+      <h2>Products</h2>
+      <hr/>
+    </div>
+    <div class="product">
+      <div id="icon-btcpos" class="product-icon"><img class="icon" src="/img/icon-shopping-cart.svg" /></div>
+      <h3>btcPOS</h3>
+      <p>Our merchant processing solution. Your business in Panama can now accept Bitcoin with no risk! We accept Bitcoin from your customers on your behalf and convert them to Balboas, which we will then deposit into your bank account. There are zero fees, and zero risk. If you receive a payment for B/.500.00, you'll receive B/.500.00.</p>
+      <p><a class="btn-btcpos" href="/btcpos">Details</a></p>
+    </div>
+    <div class="product">
+      <div id="icon-btc2pab" class="product-icon"><img class="icon" src="/img/icon-money-bag.svg" /></div>
+      <h3>Balboas for Bitcoins</h3>
+      <p>We will convert your Bitcoins into Balboas and deposit them into your bank account, or send you cash through one of our agents.</p>
+      <p><a class="btn-btc2pab" href="/sell">www.ptycoin.com/sell</a></p>
+    </div>
+    <!--
+    <div class="product">
+      <div id="icon-billpay" class="product-icon"><img class="icon" src="/img/icon-billpay.svg" /></div>
+      <h3>Bitcoin Billpay</h3>
+      <p>Use your Bitcoins to pay your bills. We act as a proxy service, through which you can pay any of your bills using Bitcoin. We convert the Bitcoin to Balboas and pay the bills on your behalf.</p>
+      <p><a class="btn-billpay" href="http://billpay.panamabitcoins.com">billpay.panamabitcoins.com</a></p>
+    </div>
+    <div class="product">
+      <div id="icon-phonecard" class="product-icon"><img class="icon" src="/img/icon-phone.svg" /></div>
+      <h3>Mobile Recharge</h3>
+      <p>Use your Bitcoins to recharge your pre-paid mobile phone. We offer recharge codes for Movistar, +Movil, Digicel, and Claro.</p>
+      <p><a class="btn-phonecard" href="http://store.panamabitcoins.com">store.panamabitcoins.com</a></p>
+    </div>
+    -->
+    <div class="product">
+      <div id="icon-pab2btc" class="product-icon"><img class="icon" src="/img/icon-bitcoin.svg" /></div>
+      <h3>Buy Bitcoin</h3>
+      <p>How do we convert Bitcoins to Balboas for all of our other products and services? We sell them to you! This keeps the Bitcoin in Panama and helps grow the local Bitcoin economy.</p>
+      <p><a class="btn-pab2btc" href="/buy">www.ptycoin.com/buy</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="inner center">
+    <div class="section-title">
+      <h2>Services</h2>
+      <hr/>
+    </div>
+    <div class="product">
+      <div id="icon-presentations" class="icon"><img class="icon" src="/img/icon-presentation.svg" /></div>
+      <h3>Bitcoin Presentations</h3>
+      <p>Would you and your organization like to learn more about Bitcoin? Our founder is available for presentations and seminars.</p>
+      <p><a class="btn-presentations" href=""></a></p>
+    </div>
+    <div class="product">
+      <div id="icon-consulting" class="icon"><img class="icon" src="/img/icon-consulting.svg" /></div>
+      <h3>Bitcoin Consulting</h3>
+      <p>Our btcPOS product makes it easy to start accepting Bitcoin, but if you want a more custom solution, or want to build a new product or service that uses Bitcoin, we can help with small or large projects.</p>
+      <p><a class="btn-consulting" href=""></a></p>
+    </div>
+    <!--
+    <div class="product">
+      <div id="icon-legal" class="icon"><img class="icon" src="/img/icon-legal.svg" /></div>
+      <h3>Legal Services</h3>
+      <p>Our team includes a licensed attorney, experienced in Panamanian law and how it relates to Bitcoin. We can offer our legal expertise to your existing business, or help you form a new business. And yes, we do accept Bitcoin!</p>
+      <p><a class="btn-legal" href=""></a></p>
+    </div>
+    -->
+  </div>
+</section>
+
+<section id="contact">
+  <div class="inner center">
+    <div class="section-title">
+      <h2>Contact Us!</h2>
+      <hr/>
+    </div>
+    <p>Would you like to talk to us more?</p>
+    <address>
+      email: <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a><br/>
+      google+: <a href="https://plus.google.com/+Panamabitcoins">+Panamabitcoins</a><br/>
+      facebook: <a href="https://fb.com/panamabitcoins">PanamaBitcoins</a><br/>
+      twitter: <a href="https://twitter.com/panamabitcoins">@PanamaBitcoins</a><br/>
+      blog: <a href="http://www.ptycoin.com/blog">http://www.ptycoin.com/blog</a><br/>
+    </address>
+  </div>
+</section>
+</div>
+
+<footer>
+  <div class="inner clearfix">
+    <p>
+      <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a><br/>
+      &copy; 2014 - PTYcoin is a wholly owned subsidiary of The Ergophobia Foundation</p>
+  </div>
+</footer>
+
+</body>
+</html>
