@@ -44,17 +44,17 @@
       <hr/>
     </div>
     <div>
-      <p>PTYcoin ahora ha comenzado a trabajar con los afiliados de ventas para ayudarle en la compra de Bitcoin. Si usted es un cliente nuevo, por favor p&oacute;ngase en contacto con el afiliado autorizado m&aacute;s cercano a usted:</p>
+      <p>PTYcoin ahora ha comenzado a trabajar con corredores independientes para ayudarle en la compra de Bitcoin. Si usted es un cliente nuevo, por favor póngase en contacto con el agente más cercano a usted:</p>
       <br/>
       <table>
         <tr>
-          <th class="fluid visible">Afiliado</th>
+          <th class="fluid visible">Corredor</th>
           <th class="fixed visible">Ubicaci&oacute;n</th>
           <th class="fixed visible">Email</th>
           <th class="fixed visible">Social</th>
         </tr>
         <tr>
-          <td class="fluid visible">Jim Phillips (Bitcoin Embassy)</td>
+          <td class="fluid visible">Jim Phillips</td>
           <td class="fixed visible">Panama City</td>
           <td class="fixed visible"><a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a></td>
           <td class="fixed visible">
@@ -63,20 +63,27 @@
              <a href="https://twitter.com/PanamaBitcoins"><img src="img/icon-twitter.svg" height="24px"/></a>
           </td>
         </tr>
+        <tr>
+          <td class="fluid visible">Vitelio Vega</td>
+          <td class="fixed visible">Las Tablas</td>
+          <td class="fixed visible"><a href="mailto:vite@pensandopanama.com">vite@pensandopanama.com</a></td>
+          <td class="fixed visible">
+             <a href="https://plus.google.com/+ViteVega"><img src="img/icon-gplus.svg" height="24px"/></a>
+             <a href="https://fb.com/vite.vega"><img src="img/icon-fb.svg" height="24px"/></a>
+             <a href="https://twitter.com/pensandopanama"><img src="img/icon-twitter.svg" height="24px"/></a>
+          </td>
+        </tr>
       </table>
       <br/>
-      <p style="font-weight: bold;">Por favor, tenga en cuenta que para nuestra seguridad y la seguridad de nuestros clientes, los afiliados son agentes independientes de PTYcoin y no tienen acceso directo a nuestro suministro de bitcoin. Fondos de USD deben ser depositados en una cuenta bancaria que controla PTYcoin antes que enviemos bitcoin. Si usted tiene alguna duda con respecto a la cuenta de dep&oacute;sito a cual su afiliado le ha proporcionado, por favor no dude en ponerse en contacto con nosotros directamente en <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a> para confirmar antes de hacer su dep&oacute;sito. Despu&eacute;s de hacer el dep&oacute;sito, por favor env&iacute;e una copia del comprobante de dep&oacute;sito o la comprobante de ACH para <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a> junto con su direcci&oacute;n Bitcoin. Una vez que hayamos confirmado el dep&oacute;sito, le ceramos un precio y enviaremos bitcoin a la direcci&oacute;n que usted proporcion&oacute;.</p>
+      <p style="font-weight: bold;">Tenga en cuenta que los corredores son agentes independientes, cada uno con sus propios procedimientos de compra y cuotas. Efectivamente, su agente actúa en su nombre para comprar bitcoin de PTYcoin u otros proveedores.</p>
       <br/>
-      <p>Si usted prefiere hacer su compra en persona, nos puede visitar a nuestra Embajada Bitcoin, la cual abrimos todos los Lunes, Miercoles y Viernes de 8am - 2pm. Esta ubicada dentro de New York Bagel Cafe en Plaza Einstein, saliendo de Via Argentina en el Cangrejo, Ciudad de Panam&aacute;.</p>
-      <br/>
-      <img src="http://maps.google.com/maps/api/staticmap?center=New+York+Bagel+Cafe,El+Cangrejo,Panama&zoom=16&size=600x400&maptype=roadmap&markers=color:red|8.989452,%20-79.527953"/></p>
     </div>
   </div>
 </section>
 <section id="contact">
   <div class="inner center">
     <div class="section-title">
-      <h2>Para compras mayores a $2000 por favor &iexcl;cont&aacute;ctenos primero!</h2>
+      <h2>Cont&aacute;ctenos!</h2>
       <hr/>
     </div>
     <address>
