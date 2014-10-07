@@ -49,14 +49,14 @@
       <table>
         <tr>
           <th class="fluid visible">Corredor</th>
-          <th class="fixed visible">Ubicaci&oacute;n</th>
-          <th class="fixed visible">Email</th>
+          <th class="fluid visible">Ubicaci&oacute;n</th>
+          <th class="fluid visible">Email</th>
           <th class="fixed visible">Social</th>
         </tr>
         <tr>
           <td class="fluid visible">Jim Phillips</td>
-          <td class="fixed visible">Panama City</td>
-          <td class="fixed visible"><a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a></td>
+          <td class="fluid visible">Panama City</td>
+          <td class="fluid visible"><a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a></td>
           <td class="fixed visible">
              <a href="https://plus.google.com/+JimPhillipsPTYcoin"><img src="img/icon-gplus.svg" height="24px"/></a>
              <a href="https://fb.com/PanamaBitcoins"><img src="img/icon-fb.svg" height="24px"/></a>
@@ -65,8 +65,8 @@
         </tr>
         <tr>
           <td class="fluid visible">Vitelio Vega</td>
-          <td class="fixed visible">Las Tablas</td>
-          <td class="fixed visible"><a href="mailto:vite@pensandopanama.com">vite@pensandopanama.com</a></td>
+          <td class="fluid visible">Las Tablas</td>
+          <td class="fluid visible"><a href="mailto:vite@pensandopanama.com">vite@pensandopanama.com</a></td>
           <td class="fixed visible">
              <a href="https://plus.google.com/+ViteVega"><img src="img/icon-gplus.svg" height="24px"/></a>
              <a href="https://fb.com/vite.vega"><img src="img/icon-fb.svg" height="24px"/></a>
