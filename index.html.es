@@ -52,7 +52,7 @@
       <hr/>
     </div>
     <p>Bitcoin es una innovadora red de pagos y una nueva clase de dinero.</p>
-    <div class="mainvideo"><iframe width="640" height="390" src="//www.youtube.com/embed/ceef71b0zSo?rel=0&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
+    <div class="mainvideo"><iframe width="640" height="390" src="//www.youtube.com/embed/Gc2en3nHxA4?rel=0&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
     <div class="limiter clearfix">
       <div class="item">
         <div id="icon-instant" class="icon"><img class="icon" src="img/main_ico_instant.svg" /></div>
