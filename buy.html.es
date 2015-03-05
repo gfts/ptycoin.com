@@ -63,16 +63,6 @@
              <a href="https://twitter.com/PanamaBitcoins"><img src="img/icon-twitter.svg" height="24px"/></a>
           </td>
         </tr>
-        <tr>
-          <td class="fluid visible">Vitelio Vega</td>
-          <td class="fluid visible">Las Tablas</td>
-          <td class="fluid visible"><a href="mailto:vite@pensandopanama.com">vite@pensandopanama.com</a></td>
-          <td class="fixed visible">
-             <a href="https://plus.google.com/+ViteVega"><img src="img/icon-gplus.svg" height="24px"/></a>
-             <a href="https://fb.com/vite.vega"><img src="img/icon-fb.svg" height="24px"/></a>
-             <a href="https://twitter.com/pensandopanama"><img src="img/icon-twitter.svg" height="24px"/></a>
-          </td>
-        </tr>
       </table>
       <br/>
       <p style="font-weight: bold;">Tenga en cuenta que los corredores son agentes independientes, cada uno con sus propios procedimientos de compra y cuotas. Efectivamente, su agente actúa en su nombre para comprar bitcoin de PTYcoin u otros proveedores.</p>

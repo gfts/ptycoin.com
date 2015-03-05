@@ -56,15 +56,15 @@
     <div class="mainvideo"><iframe width="640" height="390" src="//www.youtube.com/embed/Um63OQz3bjo?rel=0&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
     <div class="limiter clearfix">
       <div class="item">
-        <div id="icon-instant" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_instant.svg" /></div>
+        <div id="icon-instant" class="icon"><img class="icon" src="img/main_ico_instant.svg" /></div>
         <div class="box"><p>Instant peer-to-peer transactions</p></div>
       </div>
       <div class="item">
-        <div id="icon-worldwide" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_worldwide.svg" /></div>
+        <div id="icon-worldwide" class="icon"><img class="icon" src="img/main_ico_worldwide.svg" /></div>
 	<div class="box"><p>Worldwide payments</p></div>
       </div>
       <div class="item">
-        <div id="icon-lowfee" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_lowfee.svg" /></div>
+        <div id="icon-lowfee" class="icon"><img class="icon" src="img/main_ico_lowfee.svg" /></div>
         <div class="box"><p>Zero or low processing fees</p></div>
       </div>
     </div>
@@ -89,7 +89,7 @@
       <div id="icon-btc2pab" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>Balboas for Bitcoins</h3>
       <p>We will convert your Bitcoins into Balboas and deposit them into your bank account, or send you cash through one of our agents.</p>
-      <p><a class="btn-btc2pab" href="/sell">www.ptycoin.com/sell</a></p>
+      <p><a class="btn-btc2pab" href="sell">www.ptycoin.com/sell</a></p>
     </div>
     <!--
     <div class="product">
@@ -109,7 +109,7 @@
       <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/icon-bitcoin.svg" /></div>
       <h3>Buy Bitcoin</h3>
       <p>How do we convert Bitcoins to Balboas for all of our other products and services? We sell them to you! This keeps the Bitcoin in Panama and helps grow the local Bitcoin economy.</p>
-      <p><a class="btn-pab2btc" href="/buy">www.ptycoin.com/buy</a></p>
+      <p><a class="btn-pab2btc" href="buy">www.ptycoin.com/buy</a></p>
       </div>
     </div>
   </div>

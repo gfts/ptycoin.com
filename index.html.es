@@ -55,15 +55,15 @@
     <div class="mainvideo"><iframe width="640" height="390" src="//www.youtube.com/embed/ceef71b0zSo?rel=0&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
     <div class="limiter clearfix">
       <div class="item">
-        <div id="icon-instant" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_instant.svg" /></div>
+        <div id="icon-instant" class="icon"><img class="icon" src="img/main_ico_instant.svg" /></div>
         <div class="box"><p>Transacciones Instantáneas Punto a Punto</p></div>
       </div>
       <div class="item">
-        <div id="icon-worldwide" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_worldwide.svg" /></div>
+        <div id="icon-worldwide" class="icon"><img class="icon" src="img/main_ico_worldwide.svg" /></div>
 	<div class="box"><p>Pagos Mundiales</p></div>
       </div>
       <div class="item">
-        <div id="icon-lowfee" class="icon"><img class="icon" src="//bitcoin.org/img/main_ico_lowfee.svg" /></div>
+        <div id="icon-lowfee" class="icon"><img class="icon" src="img/main_ico_lowfee.svg" /></div>
         <div class="box"><p>Cero o bajo costos por transacción</p></div>
       </div>
     </div>
@@ -88,7 +88,7 @@
       <div id="icon-btc2pab" class="product-icon"><img class="icon" src="img/icon-money-bag.svg" /></div>
       <h3>Balboas por Bitcoins</h3>
       <p>Convertiremos sus Bitcoin en Balboas y se los depositaremos en su cuenta de banco, o le daremos el efectivo a través de uno de nuestros agentes.</p>
-      <p><a class="btn-btc2pab" href="/sell">www.ptycoin.com/sell</a></p>
+      <p><a class="btn-btc2pab" href="sell">www.ptycoin.com/sell</a></p>
     </div>
     <!--
     <div class="product">
@@ -108,7 +108,7 @@
       <div id="icon-pab2btc" class="product-icon"><img class="icon" src="img/icon-bitcoin.svg" /></div>
       <h3>Compre Bitcoin</h3>
       <p>¿Como convertimos Bitcoin a Balboas para todos nuestros productos, y servicios? ¡Se las vendemos a usted! Así se mantiene la circulación de Bitcoin dentro de Panamá y ayuda a crecer la economía local de Bitcoin.</p>
-      <p><a class="btn-pab2btc" href="/buy">www.ptycoin.com/buy</a></p>
+      <p><a class="btn-pab2btc" href="buy">www.ptycoin.com/buy</a></p>
       </div>
     </div>
   </div>
