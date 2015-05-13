@@ -73,7 +73,7 @@
                                         <img src="img/icon-twitter.svg" height="24px" />
                                     </a>
                                     <a href="callto:+50765709999">
-                                        <img src="img/whatsapp.svg" height="24px" alt="+50765709999" />
+                                        <img src="img/whatsapp.svg" height="24px" title="+50765709999" />
                                     </a>
                                 </td>
                             </tr>
@@ -88,7 +88,7 @@
                                         <img src="img/icon-gplus.svg" height="24px" />
                                     </a>
                                     <a href="callto:+50764550955">
-                                        <img src="img/whatsapp.svg" height="24px" alt="+50764550955" />
+                                        <img src="img/whatsapp.svg" height="24px" title="+50764550955" />
                                     </a>
                                 </td>
                             </tr>

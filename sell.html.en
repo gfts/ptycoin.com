@@ -1,122 +1,126 @@
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>PTYcoin - Sell Bitcoin</title>
-<meta name="description" content="Panama Bitcoins. We are Panama Bitcoins, S.A.. Founded in 2013, our mission is to bring Bitcoin to the Republic of Panama. In addition to evangelizing Bitcoin, and its benefits, we offer a variety of products and services that help businesses and individuals to start accepting and using Bitcoin.">
-<meta name="keywords" content="Panama Bitcoins, Panama, Bitcoin, Exchange, BTC, Bill Pay, BillPay, Phone Cards, Technology, Consulting">
-<meta name="author" content="Panama Bitcoins">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css"  type="text/css" media="screen">
-<link rel="shortcut icon" href="favicon.ico">
-</head>
-<body>
-  <!-- Google Analytics Tracking Code -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <head>
+        <meta charset="utf-8">
+        <title>PTYcoin - Sell Bitcoin</title>
+        <meta name="description" content="Panama Bitcoins. We are Panama Bitcoins, S.A.. Founded in 2013, our mission is to bring Bitcoin to the Republic of Panama. In addition to evangelizing Bitcoin, and its benefits, we offer a variety of products and services that help businesses and individuals to start accepting and using Bitcoin.">
+        <meta name="keywords" content="Panama Bitcoins, Panama, Bitcoin, Exchange, BTC, Bill Pay, BillPay, Phone Cards, Technology, Consulting">
+        <meta name="author" content="Panama Bitcoins">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <!-- Google Analytics Tracking Code -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+              ga('create', 'UA-47372803-2', 'ptycoin.com');
+              ga('require', 'displayfeatures');
+              ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics Tracking Code -->
+        <header id="mainheader">
+            <div id="title">
+                 <h1 id="page-title">Panama Bitcoins</h1>
 
-  ga('create', 'UA-47372803-2', 'ptycoin.com');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-  </script>
-  <!-- End Google Analytics Tracking Code -->
+                <hr class="title" />
+                 <h2 class="subtitle">How do I sell Bitcoin in Panama?</h2>
 
+            </div>
+        </header>
+        <div id="page">
+            <section id="about">
+                <div class="inner center">
+                    <div class="section-title">
+                         <h2>How do I sell Bitcoin in Panama?</h2>
 
-<header id="mainheader">
-  <div id="title">
-    <h1 id="page-title">Panama Bitcoins</h1>
-    <hr class="title"/>
-    <h2 class="subtitle">How do I sell Bitcoin in Panama?</h2>
-  </div>
-</header>
-<div id="page">
-<section id="about">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I sell Bitcoin in Panama?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>PTYcoin has now begun working with sales affiliates to assist you in the sale of your Bitcoin. If you're a new customer, please contact the authorized affiliate nearest to you:</p>
-      <br/>
-      <table>
-        <tr>
-          <th class="fluid visible">Affiliate</th>
-          <th class="fixed visible">Location</th>
-          <th class="fixed visible">Email</th>
-          <th class="fixed visible">Social</th>
-        </tr>
-<tr>
-    <td class="fluid visible">Jim Phillips</td>
-    <td class="fluid visible">La Arenosa, Ma&ntilde;anitas, & Panama City</td>
-    <td class="fluid visible">
-        <a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a>
-    </td>
-    <td class="fixed visible">
-        <a href="https://plus.google.com/+JimPhillipsPTYcoin">
-            <img src="img/icon-gplus.svg" height="24px" />
-        </a>
-        <a href="https://fb.com/PanamaBitcoins">
-            <img src="img/icon-fb.svg" height="24px" />
-        </a>
-        <a href="https://twitter.com/PanamaBitcoins">
-            <img src="img/icon-twitter.svg" height="24px" />
-        </a>
-        <a href="callto:+50765709999">
-            <img src="img/whatsapp.svg" height="24px" alt="+50765709999" />
-        </a>
-    </td>
-</tr>
-<tr>
-    <td class="fluid visible">Johana Medina</td>
-    <td class="fluid visible">Arreijan & Panama City</td>
-    <td class="fluid visible">
-        <a href="mailto:johana9010.4@gmail.com">johana9010.4@gmail.com</a>
-    </td>
-    <td class="fixed visible">
-        <a href="https://plus.google.com/102534370597750584956">
-            <img src="img/icon-gplus.svg" height="24px" />
-        </a>
-        <a href="callto:+50764550955">
-            <img src="img/whatsapp.svg" height="24px" alt="+50764550955" />
-        </a>
-    </td>
-</tr>
-      </table>
-      <br/>
-      <p style="font-weight: bold;">Please note that for our security and the security of our customers, affiliates are independent agents of PTYcoin and do not have direct access to our supply of bitcoin or USD. BTC funds must be sent to a wallet that PTYcoin controls before we will send USD. If you have any doubt regarding the deposit address your affiliate has provided you, please do not hesitate to contact us directly at <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a> to confirm before sending. After transfer, please send the Transaction ID and amount sent to <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a> along with details on how you prefer to receive payment. Once we have confirmed the deposit, we will lock a price and send USD via the method you provided as soon as it is available.</p>
-      <br/>
-      <p>Please review our table of <a href="/fees">fees</a> for an explanation of our variable prices.</p>
-    </div>
-  </div>
-</section>
-<section id="contact">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>For transactions larger than $2000, contact us first!</h2>
-      <hr/>
-    </div>
-    <address>
+                        <hr/>
+                    </div>
+                    <div>
+                        <p>PTYcoin has now begun working with sales affiliates to assist you in the sale of your Bitcoin. If you're a new customer, please contact the authorized affiliate nearest to you:</p>
+                        <br/>
+                        <table>
+                            <tr>
+                                <th class="fluid visible">Affiliate</th>
+                                <th class="fixed visible">Location</th>
+                                <th class="fixed visible">Email</th>
+                                <th class="fixed visible">Social</th>
+                            </tr>
+                            <tr>
+                                <td class="fluid visible">Jim Phillips</td>
+                                <td class="fluid visible">La Arenosa, Ma&ntilde;anitas, & Panama City</td>
+                                <td class="fluid visible">
+                                    <a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a>
+                                </td>
+                                <td class="fixed visible">
+                                    <a href="https://plus.google.com/+JimPhillipsPTYcoin">
+                                        <img src="img/icon-gplus.svg" height="24px" />
+                                    </a>
+                                    <a href="https://fb.com/PanamaBitcoins">
+                                        <img src="img/icon-fb.svg" height="24px" />
+                                    </a>
+                                    <a href="https://twitter.com/PanamaBitcoins">
+                                        <img src="img/icon-twitter.svg" height="24px" />
+                                    </a>
+                                    <a href="callto:+50765709999">
+                                        <img src="img/whatsapp.svg" height="24px" title="+50765709999" />
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fluid visible">Johana Medina</td>
+                                <td class="fluid visible">Arreijan & Panama City</td>
+                                <td class="fluid visible">
+                                    <a href="mailto:johana9010.4@gmail.com">johana9010.4@gmail.com</a>
+                                </td>
+                                <td class="fixed visible">
+                                    <a href="https://plus.google.com/102534370597750584956">
+                                        <img src="img/icon-gplus.svg" height="24px" />
+                                    </a>
+                                    <a href="callto:+50764550955">
+                                        <img src="img/whatsapp.svg" height="24px" title="+50764550955" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <br/>
+                        <p style="font-weight: bold;">Please note that for our security and the security of our customers, affiliates are independent agents of PTYcoin and do not have direct access to our supply of bitcoin or USD. BTC funds must be sent to a wallet that PTYcoin controls before we will send
+                            USD. If you have any doubt regarding the deposit address your affiliate has provided you, please do not hesitate to contact us directly at
+                            <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a>to confirm before sending. After transfer, please send the Transaction ID and amount sent to
+                            <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a>along with details on how you prefer to receive payment. Once we have confirmed the deposit, we will lock a price and send USD via the method you provided as soon as it is available.</p>
+                        <br/>
+                        <p>Please review our table of
+                            <a href="/fees">fees</a>for an explanation of our variable prices.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="inner center">
+                    <div class="section-title">
+                         <h2>For transactions larger than $2000, contact us first!</h2>
+
+                        <hr/>
+                    </div> <address>
       email: <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a><br/>
       google+: <a href="https://plus.google.com/+Panamabitcoins">+Panamabitcoins</a><br/>
       facebook: <a href="https://fb.com/panamabitcoins">PanamaBitcoins</a><br/>
       twitter: <a href="https://twitter.com/panamabitcoins">@PanamaBitcoins</a><br/>
       blog: <a href="https://ptycoin.com/blog">ptycoin.com/blog</a><br/>
     </address>
-  </div>
-</section>
-</div>
 
-<footer>
-  <div class="inner clearfix">
-    <p>
-      <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a><br/>
-      &copy; 2014 - PTYcoin is a wholly owned subsidiary of The Ergophobia Foundation</p>
-  </div>
-</footer>
-
-</body>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="inner clearfix">
+                <p>
+                    <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a>
+                    <br/>&copy; 2014 - PTYcoin is a wholly owned subsidiary of The Ergophobia Foundation</p>
+            </div>
+        </footer>
+    </body>
 </html>
