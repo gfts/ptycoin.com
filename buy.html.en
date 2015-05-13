@@ -51,9 +51,9 @@
                         <br/>
                         <table>
                             <tr>
-                                <th class="fluid visible">Broker</th>
+                                <th class="fixed visible">Broker</th>
                                 <th class="fluid visible">Location</th>
-                                <th class="fluid visible">Email</th>
+                                <th class="fixed visible">Email</th>
                                 <th class="fixed visible">Social</th>
                             </tr>
                             <tr>

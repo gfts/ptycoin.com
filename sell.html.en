@@ -45,8 +45,8 @@
                         <br/>
                         <table>
                             <tr>
-                                <th class="fluid visible">Affiliate</th>
-                                <th class="fixed visible">Location</th>
+                                <th class="fixed visible">Affiliate</th>
+                                <th class="fluid visible">Location</th>
                                 <th class="fixed visible">Email</th>
                                 <th class="fixed visible">Social</th>
                             </tr>

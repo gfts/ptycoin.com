@@ -12,7 +12,7 @@ blockquote:before, blockquote:after,q:before, q:after {content: '';content: none
 table {border-collapse: collapse;border-spacing: 0; width: 100%; table-layout: fixed; }
 th { padding-left: 10px; padding-right: 10px; background-color: #ddd; border: 1px solid black; }
 td { padding: 10px; border: 1px solid black; color: #262626; }
-.fixed { width: 120pt; text-align: center; }
+.fixed { width: 160pt; text-align: center; }
 .fluid { text-align: justify; }
 .visible { }
 .hidden{ overflow:hidden; }
