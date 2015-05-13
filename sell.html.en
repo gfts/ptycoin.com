@@ -49,16 +49,42 @@
           <th class="fixed visible">Email</th>
           <th class="fixed visible">Social</th>
         </tr>
-        <tr>
-          <td class="fluid visible">Jim Phillips</td>
-          <td class="fixed visible">Panama City</td>
-          <td class="fixed visible"><a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a></td>
-          <td class="fixed visible">
-             <a href="https://plus.google.com/+JimPhillipsPTYcoin"><img src="img/icon-gplus.svg" height="24px"/></a>
-             <a href="https://fb.com/PanamaBitcoins"><img src="img/icon-fb.svg" height="24px"/></a>
-             <a href="https://twitter.com/PanamaBitcoins"><img src="img/icon-twitter.svg" height="24px"/></a>
-          </td>
-        </tr>
+<tr>
+    <td class="fluid visible">Jim Phillips</td>
+    <td class="fluid visible">La Arenosa, Ma&ntilde;anitas, & Panama City</td>
+    <td class="fluid visible">
+        <a href="mailto:jim@ptycoin.com">jim@ptycoin.com</a>
+    </td>
+    <td class="fixed visible">
+        <a href="https://plus.google.com/+JimPhillipsPTYcoin">
+            <img src="img/icon-gplus.svg" height="24px" />
+        </a>
+        <a href="https://fb.com/PanamaBitcoins">
+            <img src="img/icon-fb.svg" height="24px" />
+        </a>
+        <a href="https://twitter.com/PanamaBitcoins">
+            <img src="img/icon-twitter.svg" height="24px" />
+        </a>
+        <a href="callto:+50765709999">
+            <img src="img/whatsapp.svg" height="24px" alt="+50765709999" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td class="fluid visible">Johana Medina</td>
+    <td class="fluid visible">Arreijan & Panama City</td>
+    <td class="fluid visible">
+        <a href="mailto:johana9010.4@gmail.com">johana9010.4@gmail.com</a>
+    </td>
+    <td class="fixed visible">
+        <a href="https://plus.google.com/102534370597750584956">
+            <img src="img/icon-gplus.svg" height="24px" />
+        </a>
+        <a href="callto:+50764550955">
+            <img src="img/whatsapp.svg" height="24px" alt="+50764550955" />
+        </a>
+    </td>
+</tr>
       </table>
       <br/>
       <p style="font-weight: bold;">Please note that for our security and the security of our customers, affiliates are independent agents of PTYcoin and do not have direct access to our supply of bitcoin or USD. BTC funds must be sent to a wallet that PTYcoin controls before we will send USD. If you have any doubt regarding the deposit address your affiliate has provided you, please do not hesitate to contact us directly at <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a> to confirm before sending. After transfer, please send the Transaction ID and amount sent to <a href="mailto:purchase@ptycoin.com">purchase@ptycoin.com</a> along with details on how you prefer to receive payment. Once we have confirmed the deposit, we will lock a price and send USD via the method you provided as soon as it is available.</p>
