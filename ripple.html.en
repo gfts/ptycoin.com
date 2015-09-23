@@ -40,190 +40,14 @@
       <hr/>
     </div>
     <div>
-      <p>PTYcoin is currently testing our new Ripple Gateway and Exchange service. Using this service, you will be able to 
-         trade Bitcoin for US Dollars with other members of the Panama Bitcoin community, and be among the first to establish
-         a true exchange rate for Bitcoin in Panama. During our test phase, you will be able to deposit and withdraw USD and
-         BTC with Panama Bitcoins, and trade on our exchange with ZERO transfer fees. Keep reading for more details.</p>
+      <p>Since it's inception, PTYcoin has always placed a high priority on the privacy of our customers. We collect only the
+         minimum amount of information necessary to do business with our clients and remain in compliance with Panamanian
+         Anti Money Laundering (AML) and Know Your Customer (KYC) regulations. Ripple Labs has recently implemented new policies
+         which would require PTYcoin to collect and share far more information about our customers than we are comfortable with.
+         So we have made the decision NOT to support the use of Ripple. We no longer provide Gateway or Exchange services on
+         the Ripple platform. We can however buy and sell Bitcoin to our customers which they can, at their own discression, 
+         convert into Ripple and use within the Ripple network through various compliant Ripple gateways that still exist.</p> 
     </div>
-  </div>
-</section>
-<section id="even">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I get started?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>To get started, all you need is an activated Ripple account. If you don't have an account, you can sign up for free at
-         <a href="https://rippletrade.com">https://rippletrade.com</a>. If you haven't yet activated your account, don't worry,
-         we'll activate it for you when you make your first deposit with us.</p>
-      <br/>
-      <p>Once you've signed up, you can add us to your contacts. Our Ripple address is <strong>~ptycoin</strong>. You should also
-         add a trust limit for us (through the settings gear menu) in any amount you feel comfortable with. This should be at
-         least as large as any amount you plan to hold on deposit with us in the future. If you're planning on trading between USD
-         and BTC, you will need to trust us with both currencies. This is analogous to holding Bitcoin or USD on one of the major
-         exchanges. You are trusting them to hold your money for you until you decide to withdraw it. The only difference is that
-         in Ripple, you have to specify a limit to your trust. Don't worry about starting out too small. You can edit your trust limits
-         in the future if you need to increase them.</p>
-    </div>
-  </div>
-</section>
-<section id="odd">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I deposit Bitcoin?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>There are three simple ways to deposit Bitcoin to your account. The first is to contact us at <a href="mailto:exchange@ptycoin.com">
-         exchange@ptycoin.com</a> letting us know you'd like to make a BTC deposit to the Ripple exchange, and providing your Ripple address.
-         We'll give you a Bitcoin address to send the funds to. Once you've sent the funds, we'll credit your Ripple account after 3
-         confirmations. During the test phase, if you send us 5 BTC, we will credit you with 5 BTC. We will not be charging a fee for
-         deposits or withdraws.</p>
-      <br/>
-      <p>The second method is to meet with us in person, either at the Bitcoin Embassy we host on Monday, Wednesday, and Friday at the New
-         York Bagel Cafe on Via Argentina in El Cangrejo between 8am - 2pm, or by contacting us and making arrangements to meet up elsewhere.
-         You'll be able to send to our Bitcoin address, and we'll credit your Ripple account after 1 confirmation.</p>
-      <br/>
-      <p>Finally, we also accept SnapSwap BTC and Bitstamp BTC. If you send Bitstamp BTC or SnapSwap BTC to ~ptycoin, we will send back 
-         an equal amount of PTYcoin BTC.</p>
-    </div>
-  </div>
-</section>
-<section id="even">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I deposit USD?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>There are three simple ways to deposit USD to your account. The first is to contact us at <a href="mailto:exchange@ptycoin.com">
-         exchange@ptycoin.com</a> letting us know you'd like to make a USD deposit to the Ripple exchange, and providing your Ripple address.
-         We'll give you a bank account to deposit the funds to. You can either deposit in cash at the branch or transfer funds via ACH. Once 
-         you've sent the funds, send us a photo or copy of the deposit receipt. Once we've confirmed that funds are available, we'll credit 
-         your Ripple account. During the test phase, if you send us $500 USD, we will credit you with $500 USD. We will not be charging a 
-         fee for deposits or withdraws.</p>
-      <br/>
-      <p>The second method is to meet with us in person, either at the Bitcoin Embassy we host on Monday, Wednesday, and Friday at the New
-         York Bagel Cafe on Via Argentina in El Cangrejo between 8am - 2pm, or by contacting us and making arrangements to meet up elsewhere.
-         We can accept USD cash, and we'll credit your Ripple account immediately.</p>
-      <br/>
-      <p>Finally, we also accept SnapSwap USD and Bitstamp USD, with a 3% deposit fee. This is due to the costs associated with withdrawing
-         physical USD from SnapSwap and Bitstamp and moving those funds to Panama. If you send Bitstamp USD or SnapSwap USD to ~ptycoin,
-         we will send back PTYcoin USD less 3%.</p>
-    </div>
-  </div>
-</section>
-<section id="odd">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I place a trade?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>To place a trade on the PTYcoin exchange, you will need to go to the Exchange -> Trade tab on your Ripple wallet. You can set
-         the currency pair to BTC/USD, and change the issuers for both base and counter currencies to <strong>~ptycoin</strong>. Once
-         complete, you'll be able to see our order book, and place limit orders using your available BTC or USD balances. If there are
-         any matching orders, your order will be filled immediately, and your balance will be updated. If not, your order will remain
-         open until someone enters a matching order, or until you cancel it. Please note that during this testing phase, we do not
-         expect a lot of activity, so orders may remain open for some time. We will remain in the test phase of our operations until
-         there is sufficient liquidity in the new market to handle our existing volume.</p>
-      <br/>
-      <p>It is also possible, although probably not advisable until there is more liquidity in the market, to place a market order, 
-         using the Exchange -> Convert tab.</p>
-    </div>
-  </div>
-</section>
-<section id="even">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I withdraw USD?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>There are two ways to initiate a USD withdraw. If you would prefer an ACH or cash deposit to your Panama
-         bank account, send an email to <a href="mailto:exchange@ptycoin.com">exchange@ptycoin.com</a> letting us know your Ripple
-         address, and the details of your bank account (Bank, Account Type, Account Number, Name on the Account). Then use the 
-         Send tab on your Ripple wallet to send USD to <strong>~ptycoin</strong>. When we see the transfer, we will initiate the
-         corresponding transfer from our bank account or cash reserves to your account. As soon as we have made the transfer, we
-         will email you with a copy of the deposit slip or ACH confirmation.</p>
-      <br/>
-      <p>If you need to make a cash withdraw, please let us know at <a href="mailto:exchange@ptycoin.com">exchange@ptycoin.com</a>.
-         Depending on the size of the withdraw, and the size of our cash reserve, it may take several days to get sufficient cash
-         withdrawn from the bank. This is due to withdraw limits the bank has placed on our account.  We are actively working on 
-         ways to eliminate these limits, and we'll update this page at that time. In the mean time, we'll do our best to keep a 
-         sufficiently large cash reserve so that this will not be a problem.  Once we have cash in hand to fullfil your withdraw,
-         we will notify you so that we can meet up and make the trade.</p>
-    </div>
-  </div>
-</section>
-<section id="odd">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How do I withdraw BTC?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>There are two ways to initiate a BTC withdraw.  The simplest is to let us know by sending an email to
-         <a href="mailto:exchange@ptycoin.com">exchange@ptycoin.com</a> letting us know your Ripple address and Bitcoin address.
-         Then use the Send tab on your Ripple wallet to send BTC to <strong>~ptycoin</strong>. When we see the transfer, we will 
-         initiate the corresponding transfer from our Bitcoin wallet to your account. As soon as we have made the transfer, we
-         will email you with the Transaction ID.</p>
-      <br/>
-      <p>The second method is to meet with us in person, either at the Bitcoin Embassy we host on Monday, Wednesday, and Friday 
-         at the New York Bagel Cafe on Via Argentina in El Cangrejo between 8am - 2pm, or by contacting us and making 
-         arrangements to meet up elsewhere. We will send Bitcoin to your Bitcoin address immediately upon receiving the
-         corresponding Ripple transfer.</p>
-    </div>
-  </div>
-</section>
-<section id="even">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>Can I still buy or sell Bitcoin through PTYcoin without using Ripple?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>It has always been our goal to provide some sort of feature complete Bitcoin exchange to the Panama market. This Ripple
-         exchange is our first attempt at making that goal a reality.  However, while we are in the test phase, you will still 
-         be able to purchase or sell your Bitcoin the way we've always done it. Only if this test is successful, do we intend to 
-         move the rest of our business onto it, and make it the default method of buying or selling Bitcoin through PTYcoin. On
-         the other hand, if the test is unsuccessful, we will resume doing things the way we have been until we find a better
-         exchange platform that will be more widely accepted by our users.</p>
-      <br/>
-      <p>If you use our traditional service for buying or selling Bitcoin, we will continue to use the Bitfinex pricing +/- 1% (or 3%
-         in the event we need to buy from a liquidity supplier). There may at times be a significant spread between our Ripple 
-         Exchange order book and the Bitfinex order book. You are free to arbitrage between the two services, but we will not offer 
-         the "cheaper of the two" prices to buyers or sellers who do not wish to use the Ripple Exchange.</p>
-    </div>
-  </div>
-</section>
-<section id="odd">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>How safe are my deposits?</h2>
-      <hr/>
-    </div>
-    <div>
-      <p>We will be keeping funds deposited into this exchange in full reserve. At no point will we intermingle customer deposits
-         with other PTYcoin operations. Every penny or satoshi that is deposited will be available for withdraw at any time 
-         (keeping in mind daily withdraw limits from our bank).</p>
-    </div>
-  </div>
-</section>
-<section id="contact">
-  <div class="inner center">
-    <div class="section-title">
-      <h2>For deposits larger than $2000, contact us first!</h2>
-      <hr/>
-    </div>
-    <address>
-      email: <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a><br/>
-      google+: <a href="https://plus.google.com/+Panamabitcoins">+Panamabitcoins</a><br/>
-      facebook: <a href="https://fb.com/panamabitcoins">PanamaBitcoins</a><br/>
-      twitter: <a href="https://twitter.com/panamabitcoins">@PanamaBitcoins</a><br/>
-      blog: <a href="https://ptycoin.com/blog">ptycoin.com/blog</a><br/>
-    </address>
   </div>
 </section>
 </div>
@@ -231,7 +55,7 @@
   <div class="inner clearfix">
     <p>
       <a href="mailto:info@panamabitcoins.com">info@panamabitcoins.com</a><br/>
-      &copy; 2014 - PTYcoin is a wholly owned subsidiary of The Ergophobia Foundation</p>
+      &copy; 2015 - PTYcoin is a wholly owned subsidiary of The Ergophobia Foundation</p>
   </div>
 </footer>
 </body>
