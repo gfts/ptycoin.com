@@ -1,8 +1,0 @@
-version: '2'
-services:
-  app:
-    image: gcr.io/gfts-internal/ptycoin-web:1.0.0-pr.0
-    ports:
-      - 5800:80
-    volumes:
-      - ./html:/usr/local/apache2/htdocs

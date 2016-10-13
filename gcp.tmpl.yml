@@ -1,43 +1,46 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: brewers 
+  name: ptycoin-web 
   labels:
-    name: brewers
+    name: ptycoin-web
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        name: brewers
+        name: ptycoin-web
     spec:
       containers:
-      - name: brewers
+      - name: ptycoin-web
         image: {{IMAGE}}
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            cpu: 10m
 
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: brewers
+  name: ptycoin-web
   labels:
-    name: brewers
+    name: ptycoin-web
 spec:
   type: NodePort
   ports:
   - port: 80
     protocol: TCP
   selector:
-    name: brewers
+    name: ptycoin-web
 
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: brewers
+  name: ptycoin-web
 spec:
   backend:
-    serviceName: brewers
+    serviceName: ptycoin-web
     servicePort: 80

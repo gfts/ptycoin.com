@@ -5,7 +5,7 @@ VERSION=$(shell git describe --tags)
 # GCP Config
 GCP_PROJECT=gfts-internal
 NAMESPACE=gcr.io/$(GCP_PROJECT)
-ZONE=us-central1-b
+LOCATION=us-central1-b
 CLUSTER=prod
 
 # Docker Settings
