@@ -1,0 +1,8 @@
+version: '2'
+services:
+  app:
+    image: {{IMAGE}}
+    ports:
+      - 5800:80
+    volumes:
+      - ./html:/usr/local/apache2/htdocs
